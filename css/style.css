@@ -1094,7 +1094,7 @@ nav>a {
 @media (min-resolution: 192dpi),
 (min-device-pixel-ratio: 2) {
   .introduce {
-    background: linear-gradient(to bottom, var(--bg-color), var(--bg-color)), url(../images/main-bgx2.jpg);
+    background: linear-gradient(to bottom, var(--bg-color), var(--bg-color)), url(../images/people-officex2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
