@@ -54,7 +54,7 @@
   <!-- End Header navigation -->
 
   <!-- Main block -->
-  <main>
+  <main class="otstup-main">
     <!-- Introduce section -->
     <section class="section introduce">
       <div class="container">
@@ -131,13 +131,16 @@
         <h2 class="products-title">What are we doing</h2>
         <ul class="products-list list">
           <li class="products-items list-item">
-            <img src="./images/img.jpg" width="360" height="300" alt="computer software" />
+            <img srcset="./images/img@1x.jpg 1x, ./images/img@2x.jpg 2x" src="./images/img@1x.jpg"
+              alt="computer software" width="360" height="300">
           </li>
           <li class="products-items list-item">
-            <img src="./images/img2.jpg" width="360" height="300" alt="massengers" />
+            <img srcset="./images/img2@1x.jpg 1x, ./images/img2@2x.jpg 2x" src="./images/img2@1x.jpg" alt="massengers"
+              width="360" height="300">
           </li>
           <li class="products-items list-item">
-            <img src="./images/img3.jpg" width="360" height="300" alt="adaptive technologies" />
+            <img srcset="./images/img3@1x.jpg 1x, ./images/img3@2x.jpg 2x" src="./images/img3@1x.jpg"
+              alt="adaptive technologies" width="360" height="300">
           </li>
         </ul>
       </div>
@@ -150,7 +153,8 @@
         <h2 class="sub-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item list-item">
-            <img src="./images/img4.jpg" alt="our staf" width="264" height="260" />
+            <img srcset="./images/img4@1x.jpg 1x, ./images/img4@2x.jpg 2x" src="./images/img4@1x.jpg" alt="mark"
+              width="264" height="260">
             <div class="team-staf">
               <h3 class="team-title">Mark Guerrero</h3>
               <p class="team-describe">Product Designer</p>
@@ -187,7 +191,8 @@
             </div>
           </li>
           <li class="team-item list-item">
-            <img src="./images/img5.jpg" alt="our staf" width="264" height="260" />
+            <img srcset="./images/img5@1x.jpg 1x, ./images/img5@2x.jpg 2x" src="./images/img5@1x.jpg" alt="mark"
+              width="264" height="260">
             <div class="team-staf">
               <h3 class="team-title">Tom Ford</h3>
               <p class="team-describe">Frontend Developer</p>
@@ -224,7 +229,8 @@
             </div>
           </li>
           <li class="team-item list-item">
-            <img src="./images/img6.jpg" alt="our staf" width="264" height="260" />
+            <img srcset="./images/img6@1x.jpg 1x, ./images/img6@2x.jpg 2x" src="./images/img6@1x.jpg" alt="mark"
+              width="264" height="260">
             <div class="team-staf">
               <h3 class="team-title">Camila Garcia</h3>
               <p class="team-describe">Marketing</p>
@@ -261,7 +267,8 @@
             </div>
           </li>
           <li class="team-item list-item">
-            <img src="./images/img7.jpg" alt="our staf" width="264" height="260" />
+            <img srcset="./images/img7@1x.jpg 1x, ./images/img7@2x.jpg 2x" src="./images/img7@1x.jpg" alt="mark"
+              width="264" height="260">
             <div class="team-staf">
               <h3 class="team-title">Daniel Wilson</h3>
               <p class="team-describe">UI Designer</p>
@@ -304,7 +311,7 @@
 
     <!-- Customers section -->
     <section class="section customers">
-      <div class="container">
+      <div class="container customers-block">
         <h2 class="customers-title">Customers</h2>
         <ul class="customers-list list">
           <li class="customers-item list-item">
@@ -403,7 +410,8 @@
       <div class="subscribe-block">
         <p class="footer-p footer-title">Subscribe</p>
         <form action="#" class="form-subscribe">
-          <label class="footer-describe-label" for="subcribe-input">
+          <label class="footer-describe-label" for="subcribe-input"
+            style="border: 1px solid var(--white-background, #fff);">
             <input id="subcribe-input" type="email" name="footer-subscribe-email" class="footer-email-input"
               placeholder="E-mail" />
           </label>
@@ -498,7 +506,7 @@
         <li class="header-nav-item list-item">
           <a class="navigation-link mobile-mavigation-link link" href="./portfolio.html">Portfolio</a>
         </li>
-        <li class="header-nav-item list-item">
+        <li class="item-last list-item">
           <a class="navigation-link mobile-mavigation-link link" href="">Contacts</a>
         </li>
       </ul>

@@ -50,10 +50,6 @@ ul {
   padding: 0;
 }
 
-main {
-  padding-top: 72px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -79,7 +75,7 @@ main {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 p {
@@ -113,7 +109,6 @@ button {
   background-color: var(--primary-brand);
   color: var(--white-background);
   font-family: Roboto, sans-serif;
-  width: fit-content;
   padding: 16px 32px;
   min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -140,11 +135,6 @@ button {
   list-style: none;
   display: flex;
   flex-direction: row;
-}
-
-.list-item {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Header style */
@@ -272,14 +262,12 @@ nav>a {
   color: var(--white-background);
   max-width: 1440px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .introduce .container {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -290,6 +278,8 @@ nav>a {
   text-align: center;
   margin-bottom: 48px;
   max-width: 496px;
+      margin-left: auto;
+        margin-right: auto;
 }
 
 .button-introduce:hover {
@@ -314,13 +304,13 @@ nav>a {
 .alternative-title {
   font-size: 20px;
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
 
 .features-list {
-  gap: 24px;
+    gap: 72px 24px;
 }
 
 .features-icon {
@@ -380,11 +370,6 @@ nav>a {
 /* Team block style */
 .team {
   background-color: var(--light);
-}
-
-.team .container {
-  display: flex;
-  flex-direction: column;
 }
 
 .team-list {
@@ -470,6 +455,7 @@ nav>a {
 
 .customers-item {
   height: 88px;
+  width: 168px;
 }
 
 .customers-link {
@@ -477,7 +463,6 @@ nav>a {
   height: 100%;
   border: 1px solid var(--subtl-text);
   border-radius: 4px;
-  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -655,7 +640,6 @@ nav>a {
   min-height: 584px;
   max-height: calc(100% - 32px);
   overflow-y: auto;
-
   top: 50%;
   left: 50%;
   background-color: var(--modal-window-bg);
@@ -900,8 +884,8 @@ nav>a {
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 24px;
+  min-width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1009,7 +993,6 @@ nav>a {
 .footer-p {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
 
 .footer-title {
@@ -1117,10 +1100,6 @@ nav>a {
     padding: 0 16px;
   }
 
-  main {
-    padding-top: 70px;
-  }
-
   .products {
     display: none;
   }
@@ -1163,7 +1142,7 @@ nav>a {
   .alternative-title {
     font-size: 36px;
     font-family: Roboto;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -1346,10 +1325,6 @@ nav>a {
     width: 428px;
   }
 
-  main {
-    padding-top: 70px;
-  }
-
   /* header queries */
 
   .active::after {
@@ -1396,7 +1371,7 @@ nav>a {
   .alternative-title {
     font-size: 36px;
     font-family: Roboto;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -1549,6 +1524,9 @@ nav>a {
   }
 }
 
+.otstup-main {
+  padding-top: 69px;
+}
 /* End Mobile media queries */
 
 /* ____________________________________________________________________________________________________________________________________ */
@@ -1582,6 +1560,8 @@ nav>a {
 
   .header-addr-item>.contacts-link {
     padding: 0;
+    line-height: 1.17;
+      font-size: 12px;
   }
 
   .active::after {
@@ -1593,8 +1573,12 @@ nav>a {
   /* introduce queries  */
 
   .introduce {
-    padding-top: 168px;
+    padding-top: 112px;
   }
+
+     .otstup-main {
+       padding-top: 93px;
+     }
 
   /* End introduce queries  */
 
@@ -1621,7 +1605,7 @@ nav>a {
   .alternative-title {
     font-size: 36px;
     font-family: Roboto;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -1673,7 +1657,7 @@ nav>a {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 72px 24px;
-    max-width: 552px;
+    max-width: 584px;
   }
 
   .footer .link-block,
@@ -1731,6 +1715,14 @@ nav>a {
   .modal-window {
     min-height: 0;
   }
+}
+
+.customers-block {
+  padding: 0px;
+}
+
+.item-last {
+  margin-bottom: 0px;
 }
 
 /* End Tablet media queries */
