@@ -1087,7 +1087,10 @@ max-width: 428px;
 
 /* Mobile media queries */
 @media (max-width: 427px) {
-
+.header-addr-item {
+    margin-bottom: 40px;
+  }
+  
   .section.features,
   .section {
     padding: 96px 0;
@@ -1532,9 +1535,6 @@ max-width: 428px;
   padding-top: 69px;
 }
 
-.header-addr-item {
-  margin-bottom: 40px;
-}
 /* End Mobile media queries */
 
 /* ____________________________________________________________________________________________________________________________________ */
