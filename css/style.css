@@ -1090,7 +1090,7 @@ max-width: 428px;
 .header-addr-item {
     margin-bottom: 40px;
   }
-  
+
   .section.features,
   .section {
     padding: 96px 0;
@@ -1564,10 +1564,6 @@ max-width: 428px;
     display: flex;
     flex-direction: column;
     gap: 12px;
-  }
-
-  .header .address {
-    padding: 16px 0;
   }
 
   .header-addr-item>.contacts-link {
