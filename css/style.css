@@ -439,9 +439,6 @@ nav>a {
 /* End Team block style */
 
 /* Customers block style */
-.customers .container {
-max-width: 428px;
-}
 
 .customers-title {
   margin-bottom: 72px;
@@ -1091,6 +1088,10 @@ max-width: 428px;
     margin-bottom: 40px;
   }
 
+    .customers .container {
+      max-width: 428px;
+    }
+
   .section.features,
   .section {
     padding: 96px 0;
@@ -1541,6 +1542,10 @@ max-width: 428px;
 
 /* Tablet media queries */
 @media (min-width: 768px) and (max-width: 1158px) {
+.customers .container {
+    width: 584px;
+  }
+
   .container {
     width: 766px;
     padding: 0 16px;
@@ -1729,5 +1734,6 @@ max-width: 428px;
 .item-last {
   margin-bottom: 0px;
 }
+
 
 /* End Tablet media queries */
