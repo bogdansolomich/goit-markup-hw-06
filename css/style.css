@@ -1323,6 +1323,10 @@ nav>a {
     padding: 96px 0;
   }
 
+        .header-addr-item {
+          margin-bottom: 40px;
+        }
+
     .features-describe {
       font-weight: 500;
     }
@@ -1541,6 +1545,10 @@ nav>a {
 @media (min-width: 768px) and (max-width: 1158px) {
 .customers .container {
     width: 584px;
+  }
+
+  .header-addr-item {
+        margin-bottom: 40px;
   }
 
   .container {
