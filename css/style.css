@@ -1323,10 +1323,6 @@ nav>a {
     padding: 96px 0;
   }
 
-        .header-addr-item {
-          margin-bottom: 40px;
-        }
-
     .features-describe {
       font-weight: 500;
     }
@@ -1547,12 +1543,8 @@ nav>a {
     width: 584px;
   }
 
-  .header-addr-item {
-        margin-bottom: 40px;
-  }
-
   .container {
-    width: 766px;
+    max-width: 1158px;
     padding: 0 16px;
   }
 
