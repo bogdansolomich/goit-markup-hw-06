@@ -76,6 +76,7 @@ ul {
 .container {
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 1158px;
 }
 
 p {
@@ -266,7 +267,6 @@ nav>a {
 }
 
 .introduce .container {
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -1673,9 +1673,9 @@ nav>a {
 
   .footer .container {
     flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 72px;
     flex-direction: row;
-    max-width: 552px;
+    max-width: 582px;
   }
 
   .footer .link-block,
