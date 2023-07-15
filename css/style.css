@@ -1213,7 +1213,7 @@ nav>a {
   }
 
   .link-block .footer-p {
-    max-width: 268px;
+    max-width: 264px;
     text-align: start;
   }
 
@@ -1441,7 +1441,7 @@ nav>a {
   }
 
   .link-block .footer-p {
-    max-width: 268px;
+    max-width: 264px;
     text-align: start;
   }
 
@@ -1669,6 +1669,8 @@ nav>a {
   .footer .container {
     flex-wrap: wrap;
     gap: 72px 24px;
+    flex-direction: row;
+    max-width: 552px;
   }
 
   .footer .link-block,
@@ -1677,7 +1679,7 @@ nav>a {
   }
 
     .link-block {
-      width: 400px;
+      max-width: 264px;
     }
 
   .link-block,
