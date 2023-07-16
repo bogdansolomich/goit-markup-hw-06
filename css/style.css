@@ -315,7 +315,6 @@ nav>a {
 
 .features-icon {
   background-color: var(--light);
-  padding: 24px 0;
   text-align: center;
   margin-bottom: 8px;
   display: flex;
@@ -1081,7 +1080,7 @@ nav>a {
 
 /* Mobile media queries */
 @media (max-width: 427px) {
-.header-addr-item {
+  .header-addr-item {
     margin-bottom: 40px;
   }
 
@@ -1321,6 +1320,10 @@ nav>a {
   .section {
     padding: 96px 0;
   }
+
+        .header-addr-item {
+          margin-bottom: 40px;
+        }
 
     .features-describe {
       font-weight: 500;
@@ -1732,6 +1735,5 @@ nav>a {
 .item-last {
   margin-bottom: 0px;
 }
-
 
 /* End Tablet media queries */
